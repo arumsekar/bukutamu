@@ -38,7 +38,7 @@
                             <a class="nav-link" href="#visimisi">Visi Misi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#contact">Hubungi Kami</a>
+                            <a class="nav-link" href="#contact">Hubungi Kami</a>
                         </li>
                     </ul>
                 </div>

@@ -1,3 +1,14 @@
+<?php
+    session_start();
+    include '../koneksi.php';
+
+    if(!isset($_SESSION['admin']))
+    {
+        echo "<script>alert('Anda harus login dahulu');</script>";
+        echo "<script>location='login.php';</script>";
+        exit();
+    }
+?>
 <!doctype html>
 <html lang="en">
 
